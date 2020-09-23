@@ -1,0 +1,82 @@
+.titler {
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 88px;
+}
+
+.subtitler {
+font-size: 18px;
+line-height: 21px;
+color: rgba(118, 111, 111, 0.91);
+text-align:matchparent;
+font-weight: semi-bold;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.cta-button {
+background: #6C63FF;
+border-radius: 5px;
+color: white;
+}
+
+.userctrl-logo {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.docs-header {
+    color: #6C63FF;
+    font-weight: bold;
+}
+
+.footer-message {
+    color: #605D5D;
+    font-style: italic;
+    font-size: 16px;
+}
+
+  .referlistcontainer {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    #referlistemail {
+      width: 250px;
+      margin-right: 10px;
+      height: 45px;
+      border-radius: 32px;
+      border-color: black;
+      font-size: 16px;
+      padding-left: 10px;
+    }
+    #referlistbutton {
+      width: 200px;
+      height: 45px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      background-color:#6C63FF;;
+      color: white;
+    }
+    .referlistinnercontainer {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 0px;
+      padding-top: 30px;
+    }
+
+    #offer {
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: center;
+        color: #6C63FF;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }

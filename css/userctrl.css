@@ -48,7 +48,8 @@ color: white;
       border-radius: 32px;
       border-color: black;
       font-size: 16px;
-      padding-left: 10px;
+      padding: 0px;
+      text-align: center;
     }
     #referlistbutton {
       width: 200px;

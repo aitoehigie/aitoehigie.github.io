@@ -1,16 +1,13 @@
-
-<!DOCTYPE html>
+<!DOCTYPE hml>
 <html lang="en">
 <head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="description" content="userctrl - Convert more website visitors into customers with targeted, event-based popup messages.">
+<meta name="author" content="userctrlHQ">
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>userctrl: Convert and monetize your website traffic.</title>
-  <meta name="description" content="userctrl - Convert more website visitors into customers with targeted, event-based popup messages.">
-  <meta name="author" content="userctrlHQ">
-
-  <!-- Mobile Specific Metas
+<!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -24,126 +21,251 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/gh.css">
   <link rel="stylesheet" href="css/userctrl.css">
-  <script src="https://use.fontawesome.com/33855005ca.js"></script>
+
 
   <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  <script src="https://use.fontawesome.com/33855005ca.js"></script>
+  <!-- <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="css/github-prettify-theme.css">
   <script src="js/site.js"></script>
   <script src="js/waitlist.js"></script>
+  <script src="js/gh.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 
+<title>
+
+userctrl: Convert and monetize your website traffic.
+
+</title>
 </head>
-<body class="code-snippets-visible">
+<body>
+  <nav class="nav-show sticky">
+    <div class="container">
+        <ul>
+            <li>
+              
+              <a href="/">
+              
+                <img src="images/logo.png" class="userctrl-logo" /></a>
+            </li>
+	    
+            <li class="navbar-item"><a href="#why" class="navbar-link">WHY?</a></li>
+            <li class="navbar-item"><a href="#pricing"  class="navbar-link">PRICING</a></li>
+            <li class="navbar-item"><a href="mailto:hello@userctrl.com" class="navbar-link">SIGN UP</a></li>
+            <li class="u-pull-right navbar-item"><a href="mailto:hello@userctrl.com" class="navbar-link">LOG IN</a></li>
+      
+            <li class="icon navbar-item">
+                <a href="javascript:void(0);" onclick="toggleMobileNav();"  class="navbar-link">&#9776;</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="userctrl-body">
+  <div class="twelve columns">
 
-  <!-- Primary Page Layout
+<!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-    <section class="header">
-      <a href="https://www.userctrl.com"><img src="images/logo@2x.png" class="logo" alt="logo" /></a><br />
-      <h2 class="title">Never lose a sale again. <br />Convert and monetize your website traffic.</h2>
+    <section class="header" style="margin-top:5px;">
+      <h6 style="color:#6C63FF; font-weight: bold;">Engage -> Convert -> Close</h6> <h2 class="title"><strong>Watch How Visitors Interact With Your Website, and Automatically Turn Them Into Customers.</strong></h2>
       <div class="subtitler">
-        <p>Convert more website visitors into customers with targeted, event-based popup messages.</p>
+        <p>Increase visitor engagement, automate marketing, and increase sales.</p>
       </div>
-      <a class="button cta-button" href="#about" onClick="_gaq.push(['_trackEvent', 'skeleton', 'download'])"><strong>Find Out How</strong></a>
+      <a class="button cta-button" href="#about"><strong>START NOW</strong></a>
       <a id="about"></a>
       <div class="value-props row">
         <div class="four columns value-prop">
           <img src="images/code.png" alt="code icon" /> <br /><br />
-          Add a Javascript snippet to your website.
+          Add a JavaScript snippet to your website.
         </div>
         <div class="four columns value-prop">
-          <img src="images/user.png" alt="code icon" /></i> <br /><br />
-          Create the profile of your target visitor.
+          <img src="images/user.png" alt="user icon" /></i> <br /><br />
+          Create the user journey of visitors you want to convert.
         </div>
         <div class="four columns value-prop">
-          <img src="images/chat.png" alt="code icon" /></i><br /><br />
-          Popup messages are automatically sent to visitors based on their browsing patterns.
+          <img src="images/chat.png" alt="chat icon" /></i><br /><br />
+          Popup messages will be displayed to visitors based on their browsing patterns.
         </div>
       </div>
     </section>
 
-    <div class="navbar-spacer"></div>
-    <nav class="navbar">
-      <div class="container">
-        <ul class="navbar-list">
-          <li class="navbar-item"><a class="navbar-link" href="https://www.userctrl.com"><img src="images/logo.png" alt="logo" class="userctrl-logo" /></a></li>
-          <li class="navbar-item">
-            <a class="navbar-link" href="#why">Why?</a>
-          </li>
-          <li class="navbar-item"><a class="navbar-link" href="#advantages">Advantages</a></li>
-          <li class="navbar-item">
-            <a class="navbar-link" href="#about">Add to site</a>
-          </li>
-        </ul>
+    
+    <a id="why"></a><br /><br />
+    <section class="header" style="margin-bottom: 100px; margin-top: 10px;">
+      <h2 class="docs-header" style="text-align: center;">Why userctrl?</h2><br />
+      <div class="new-value-props row">
+        <div class="four columns value-prop">
+          <img src="images/tired.png" alt="rocket-ship icon" /> <br /><br />
+          <p>You are tired of low sales, subscriptions and want to convert more of your website visitors to customers.</p>
+        </div>
+        <div class="four columns value-prop">
+          <img src="images/graph.png" alt="increase icon" /> <br /><br />
+          <p>You want to automate your marketing, funnel your site traffic to reach the desired goal and skyrocket your conversion
+            rate.</p>
+        </div>
+        <div class="four columns value-prop">
+          <img src="images/money-bag.png" alt="automation icon" /> <br /><br />
+          <p>Boost your revenue and reduce customer acquisition costs.</p>
+        </div>
       </div>
-    </nav>
-
-    <div class="docs-section">
-      <h3 class="docs-header">Monetizing your website traffic should not be so difficult.</h3>
-      <p>Visitors  come to your website and leave before signing up for your service, 
-        email newsletter, or making a purchase.</p>
-        
-       <p> userctrl lets you show your perfect offer to the right visitors at the exact right time
-        to skyrocket your website conversions.</p>
-        </p>
-    </div>
-
-    <div class="docs-section">
-      <h3 class="docs-header">Start converting your visitors, without spending loads of money on marketing tools.</h3>
-      <ul>
-        <li>Add the Javascript snippet to your website.</li>
-        <li>Customize the website popup based on your target user browsing patterns.</li>
-        <li>userctrl automatically sends popup messages of discounts, targeted adverts, upsell offerings to your website visitors based on their browsing patterns.</li>
-      </ul>
-    </div>
-
-    <a id="why"></a>
-    <div class="docs-section">
-      <h3 class="docs-header">Why userctrl?</h3>
-
-       <p>You are tired of low sales, subscriptions and want to convert your website visitors to customers.</p>
-        
-        <p>You want to automate your marketing, funnel your site traffic to reach the desired goal and skyrocket your conversion
-        rate.</p>
-        </p>
-    </div>
-
-    <a id="advantages"></a>
-    <div class="docs-section">
-      <h3 class="docs-header">Advantages of userctrl</h3>
-
-       <p>Skyrocket your website conversion rate from the average rate of 5.86%.</p>
-        
-        <p>Increased sales, lead generation, revenue, subscriptions and reduced ad spend.</p>
-        
-        <p>Automate your advertising and guide visitors through your marketing funnel.</p>
-    </div>
+    </section>
 
 
-
-    <div class="docs-section">
-      <p class="footer-message"><i>“70% of visitors who abandon your website will never return.
-        And most websites capture less than 1 email for every 200 visitors. 
-       That’s a lot of time, money and effort going to waste.”</i></p>
-
-       <p>Instantly grow your email list, get more leads and increase sales.</p>
-        
-        <p>Start turning your website traffic into more subscribers, leads
-        and sales today.</p>
-
-        <p id="offer">Try userctrl risk free for 14 days.<br />No credit card needed.</p>
   
-    <!-- Begin referlist signup form -->
+
+    
+    <section class="header" style="margin-bottom: 100px; margin-top: 10px;">
+      <h2 class="docs-header" style="text-align: center;">Advantages of userctrl</h2><br />
+      <div class="new-value-props row">
+        <div class="four columns value-prop">
+          <img src="images/rocket-ship.png" alt="rocket-ship icon" /> <br /><br />
+          <p>Skyrocket your website conversion rate from the average rate of 5.86%.</p>
+        </div>
+        <div class="four columns value-prop">
+          <img src="images/increase.png" alt="increase icon" /> <br /><br />
+          <p>Increased sales, lead generation, revenue, subscriptions and reduced ad spend.</p>
+        </div>
+        <div class="four columns value-prop">
+          <img src="images/automation.png" alt="automation icon" /> <br /><br />
+          <p>Automate your advertising and guide visitors through your marketing funnel.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="docs-section">
+      <h3 class="docs-header" style="text-align: center; margin-bottom: 50px;">Common Questions</h3>
+      <p style="color:#6C63FF; font-weight: bold;">Do I need to know how to code?<br />
+        <span style="color: #1a1818; font-weight: normal;">No, userctrl makes it easy to automate user conversion with a simple point and click system.</span>
+      </p>
+      <p style="color:#6C63FF; font-weight: bold;">What is a target visitor profile?<br />
+        <span style="color:#1a1818; font-weight: normal;">You create a target visitor journey in your dashboard by mimicking the user actions (clicks, points, selections etc)
+         a website visitor would make and define messages that will be displayed with each user action along the sales funnel to the final destination of
+      a subscription, purchase or registration.</span>
+      <p style="color:#6C63FF; font-weight: bold;">What if API requests cross the limit?<br />
+        <span style="color: #1a1818; font-weight: normal;">Well, this is a nice problem to have. The API limits are not set in stone so if you cross it, 
+        we will send you a nice email to upgrade.</span>
+      </p>
+      <p style="color:#6C63FF; font-weight: bold;">Do you offer any discounts?<br />
+        <span style="color: #1a1818; font-weight: normal;">Yes, If you go for a yearly subscription then you will get a 50% discount. Hit us up at <b>hello@userctrl.com</b> to get set up.</span>
+      </p>
+      </p>
+      <p style="color:#6C63FF; font-weight: bold;">Do you have a free trial to test?<br />
+        <span style="color: #1a1818; font-weight: normal;">Yes, there is a free trial tier for you to test all features and it is free for 14 days.</span>
+      </p>
+      <p style="color:#6C63FF; font-weight: bold;">How to upgrade to a higher plan?<br />
+        <span style="color: #1a1818; font-weight: normal;">After the free trial, you will be sent an email with instructions on how to easily upgrade to the "Business Plan".</span>
+      </p>
+      <p style="color:#6C63FF; font-weight: bold;">What if I have more questions?<br />
+        <span style="color: #1a1818; font-weight: normal;">If you can't find what you are looking for, you can send us an email at <b>hello@userctrl.com</b> for more help.</span>
+      </p>
+    </div>
+
+
+    <div class="docs-section">
+       <h3 style="text-align: center;"><strong>Automate your sales and marketing in less than 5 minutes.</strong></h3>
+       <p class="footer-message" style="text-align: center;"><i>“Setting up an automated in-browser marketing system hasn't been easier.”</i></p>
+       <h6 style="text-align: center; font-weight: bold;">Convert and monetize your website traffic easily.</h6>
+       <div class="container">
+        <div class="twelve columns" style="text-align: center;">
+    <a class="button cta-button" href="mailto:hello@userctrl.com" ><strong>Get Started - It's free</strong></a>
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+  <a id="pricing"></a><br /><br />
+  <div class="container">
+    <div class="twelve columns">  
+  <section class="pricings"> 
+      <div class="docs-section">
+        <h2 class="docs-header" style="text-align: center;">How much will it cost me?</h2>
+   <p>It’s rather inexpensive to use userctrl.com suite of tools compared to several other services out there. We have several options to fit your budget and needs:</p>
+   </div>
+    </section>
+    </div>
+  </div>
+  <div class="container">
+    <div class="twelve columns">
+    <div class="pricebox one-third column" style="text-align: center;">
+      <header><h3>FREE TRIAL</h3></header>
+   <h4 class="price">$0</h4>
+   <p>Try out userctrl for 14 days</p>
+   <ul>
+    <li><span class="price-label">User Journeys:</span> < 10k</li>
+    <li><span class="price-label">Website:</span> 1 </li>
+    <li><span class="price-label">Event Profile:</span> 1</li>
+    <li><span class="price-label">Support:</span> Email Support</li>
+  </ul>
+  <a href="mailto:hello@userctrl.com"><button>Select this plan</button></a>
+    </div>
+    <div class="pricebox deal one-third column" style="text-align: center;">
+      <header><h3>Pro</h3></header>
+        <h4 class="price">$49</h4>
+        <p>per month</p>
+        <ul>
+          <li><span class="price-label">User Journeys:</span> < 100k</li>
+          <li><span class="price-label">Website:</span> 1 </li>
+          <li><span class="price-label">Event Profile: </span>10</li>
+          <li><span class="price-label">Support:</span> Priority Email Support</li>
+        </ul>
+        <a href="mailto:hello@userctrl.com"><button>Select this plan</button></a>
+      </div>
+      
+      <div class="pricebox one-third column" style="text-align: center;">
+        <header><h3>Enterprise</h3></header>
+        <h4 class="price">Contact Us</h4>
+        <br />
+        <ul>
+          <li><span class="price-label">User Journey:</span> Custom</li>
+          <li><span class="price-label">Website:</span> Custom </li>
+          <li><span class="price-label">Event Profile:</span> Custom </li>
+          <li><span class="price-label">Support:</span> Priority Email Support + Phone</li>
+        </ul>
+        <a href="mailto:hello@userctrl.com"><button>Contact Us</button></a>
+      </div>
+    </div>
+    </div>
+    <div class="container" style="margin-bottom:100px;">
+      <div class="twelve columns">
+    <section class="action">
+    <h2 class="docs-header" style="margin-top:100px; text-align: center;">Give it a try before you commit.</h2>
+    <p style="text-align: center;">You can test drive userctrl.com for 14 days for free before deciding on one of our plans. No credit card needed. </p>
+    <p style="text-align: center;">Turn your website traffic into more subscribers, leads and sales today!</p>
+      <div class="container">
+        <div class="twelve columns" style="text-align: center;">
+    <a class="button cta-button" href="mailto:hello@userctrl.com" ><strong>Start Now!</strong></a>
+      </div>
+    </div>
+  </section>
+  </div>
+</div>
+
+</div>
+</div>
+
+
+
+
+<div class="footer-container">
+  <div class="row" id="copyright">
+  &copy; 2020. userctrl.com
+</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/gh.js"></script>
+
 
     <div class="container">
       <div class="row">
@@ -164,10 +286,7 @@
     </div>
   </div>
 
-  <div id="copyright">
-    &copy; 2020. userctrl.com
-
-</div>
+  
 </div>
 <div class="row">
   <div class="one column"> 
@@ -186,22 +305,6 @@
 
   </div>
 
-
-
-  <!-- Google Analytics -->
-  <script type="text/javascript">
-
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-33397759-1']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-
-  </script>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

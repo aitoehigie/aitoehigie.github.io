@@ -125,6 +125,12 @@
     border-bottom: 1px solid #eee; }
   .navbar-spacer {
     display: none; }
+  .nav-show {
+    padding-bottom: 30px;
+    top: 0px;
+    height: 50px;
+    margin-bottom: 100px;
+  }
   .navbar > .container {
     width: 100%; 
     position:fixed;
@@ -224,8 +230,8 @@
     border-bottom-width: 0; }
   .popover-link:hover {
     color: #fff;
-    background: #33C3F0; }
+    background: #6C63FF;; }
   .popover-link:hover,
   .popover-item:first-child .popover-link:hover:after {
-    border-bottom-color: #33C3F0; }
+    border-bottom-color: #6C63FF;; }
 }

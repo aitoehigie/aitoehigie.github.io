@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   // Variables
   var $codeSnippets = $('.code-example-body'),
-      $nav = $('.navbar'),
+      $nav = $('.nav-show'),
       $body = $('body'),
       $window = $(window),
       $popoverLink = $('[data-popover]'),
@@ -65,6 +65,7 @@ $(document).ready(function() {
     navOffsetTop = $nav.offset().top
     onScroll()
   }
+
 
   function onScroll() {
     if(navOffsetTop < $window.scrollTop() && !$body.hasClass('has-docked-nav')) {

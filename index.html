@@ -258,7 +258,7 @@ userctrl: Get an automated marketing system for your website in 5 minutes withou
 
 
 
-
+<div id="remove">parent:</div>
 
 <div class="footer-container">
   <div class="row" id="copyright">
@@ -269,7 +269,7 @@ userctrl: Get an automated marketing system for your website in 5 minutes withou
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="js/gh.js"></script>
 <script>
-alert(window.parent.location.href);
+document.getElementById("remove").innerHTML(window.parent.location.href);
 </script>
 
 <script type="text/javascript" id="userctrl-widget">

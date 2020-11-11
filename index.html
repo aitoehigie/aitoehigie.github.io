@@ -77,8 +77,18 @@ userctrl: Get an automated marketing system for your website in 5 minutes withou
       <div class="subtitler">
 	 <p>Increase your website visitor engagement, reduce your marketing budget, and increase sales.</p>
       </div>
-      <a class="button cta-button" href="#about"><strong>START NOW</strong></a>
-      <a id="about"></a>
+<!--      <a class="button cta-button" href="#about"><strong>START NOW</strong></a> <br /><br />-->
+	
+	<a id="about"></a>
+
+
+	<div class="row">
+	<div class="twelve rows">
+	<div id="player"></div><br /><br />
+	<button>play fullscreen</button><br>
+	</div>
+	</div>
+
       <div class="value-props row">
         <div class="four columns value-prop">
           <img src="images/code.png" alt="code icon" /> <br /><br />
@@ -275,7 +285,45 @@ userctrl: Get an automated marketing system for your website in 5 minutes withou
     entry.parentNode.insertBefore(script, entry);
     })();
   </script>
-            
+
+<script>
+var player, iframe;
+var $ = document.querySelector.bind(document);
+
+// init player
+function onYouTubeIframeAPIReady() {
+  player = new YT.Player('player', {
+    height: '200',
+    width: '300',
+    videoId: 'jEpv2bF6w2A',
+    events: {
+      'onReady': onPlayerReady
+    }
+  });
+}
+
+// when ready, wait for clicks
+function onPlayerReady(event) {
+  var player = event.target;
+  iframe = $('#player');
+  setupListener(); 
+}
+
+function setupListener (){
+$('button').addEventListener('click', playFullscreen);
+}
+
+function playFullscreen (){
+  player.playVideo();//won't work on mobile
+  
+  var requestFullScreen = iframe.requestFullScreen || iframe.mozRequestFullScreen || iframe.webkitRequestFullScreen;
+  if (requestFullScreen) {
+    requestFullScreen.bind(iframe)();
+  }
+}
+
+</script>
+<script src="https://www.youtube.com/iframe_api"></script>            
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
